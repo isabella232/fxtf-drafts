@@ -1,16 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="720" height="240">
-<defs>
-	<filter id="filter" filterUnits="userSpaceOnUse" x="240" y="0" width="600" height="240">
-		<feGaussianBlur stdDeviation="10"/>
-	</filter>
-	<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="565" y1="170" x2="565" y2="20">
-		<stop  offset="0" style="stop-color:#F27BAA"/>
-		<stop  offset="0.1261" style="stop-color:#F386AB"/>
-		<stop  offset="0.7199" style="stop-color:#F9B5AE"/>
-		<stop  offset="1" style="stop-color:#FCC8AD"/>
-	</linearGradient>
-</defs>
-<rect x="20" y="20" width="190" height="190" style="fill:url(#gradient);stroke:black;"/>
-<rect x="270" y="130" width="70" height="70" filter="url(#filter)"/>
-<rect x="450" y="30" width="170" height="170" style="fill:url(#gradient);filter:url(#filter)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="720" height="240"><defs><filter id="filter" width="600" height="240" x="240" y="0" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="10"/></filter><linearGradient id="gradient" x1="565" x2="565" y1="170" y2="20" gradientUnits="userSpaceOnUse"><stop offset="0" style="stop-color:#f27baa"/><stop offset=".126" style="stop-color:#f386ab"/><stop offset=".72" style="stop-color:#f9b5ae"/><stop offset="1" style="stop-color:#fcc8ad"/></linearGradient></defs><rect width="190" height="190" x="20" y="20" style="fill:url(#gradient);stroke:#000"/><rect width="70" height="70" x="270" y="130" filter="url(#filter)"/><rect width="170" height="170" x="450" y="30" style="fill:url(#gradient);filter:url(#filter)"/></svg>
